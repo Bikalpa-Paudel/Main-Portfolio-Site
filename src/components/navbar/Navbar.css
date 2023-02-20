@@ -7,10 +7,14 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 0 1rem 0 1rem;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
 }
 
 .logo{
     height: 50px;
+    cursor: pointer;
 }
 
 .nav-icons{
@@ -27,6 +31,11 @@
     margin: 1rem;
 }
 
+.github a{
+    text-decoration: none;
+}
+
 .github-icon{
     font-size: 50px;
+    color: black;
 }

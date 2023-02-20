@@ -5,7 +5,7 @@ import Svg from './Svg'
 
 export default function Home(){
     return(
-        <section id="home">
+        <section className="home-container">
             <Hero />
             <Svg />
                 
