@@ -1,9 +1,15 @@
+import Hero from './Hero'
 import './Home.css'
+import Svg from './Svg'
+
 
 export default function Home(){
     return(
         <section id="home">
-            <h1>Home</h1>
+            <Hero />
+            <Svg />
+                
+            
         </section>
     )
 }
