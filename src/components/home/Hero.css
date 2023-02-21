@@ -3,8 +3,13 @@
     max-width: 35%;
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 17%;
+}
+
+.greet{
+    margin-bottom: 5rem;
+    font-size: 3rem;
 }
 
 .thin{
