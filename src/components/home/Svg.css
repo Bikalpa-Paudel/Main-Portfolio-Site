@@ -5,3 +5,22 @@
     right: 10%;
     top: 10%;
 }
+
+#Group{
+    animation: whole 3s infinite linear alternate;
+    transform-origin: bottom;
+}
+
+@keyframes whole{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(-10deg);
+    }
+
+    100%{
+        transform: rotate(5deg);
+    }
+}

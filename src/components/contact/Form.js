@@ -7,7 +7,9 @@ export default function Form(){
                 <input type="text" name='fullName' className='input full-name-input' placeholder='Full Name'/>
                 <input type="email" name='email' className='input email-input' placeholder='E-mail Address'/>
                 <textarea name='message' className='input message-input' placeholder='Type Your Message Here'/>
-                <input type="submit" className="send-btn" value="Send Message"/>
+                <div className="msg-btn">
+                    <input type="submit" className="input send-btn" value="Send Message"/>
+                </div>
             </form>
         </div>
     )
