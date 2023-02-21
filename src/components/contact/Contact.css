@@ -1,15 +1,15 @@
 #contact{
     width: 100%;
     height: 100vh;
+    background-color: #F1F2F4;
 }
 
 .contact-container{
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-top: 15vh;
+
 }
 
-.map{
-    margin-right: 10rem;
-}
