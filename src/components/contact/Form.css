@@ -1,6 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
 .form{
     min-height: 600px;
-    min-width: 600px;
+    max-width: 600px;
     background-color: #fff;
     padding: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input{
+    width: 100%;
+    border:0;
+    padding: 1rem 0 .2rem 0;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #999;
+    outline: none;
+    margin: 1rem;
+    background-color: transparent;
+
+
+}
+.message-input{
+    padding: 1rem 0 4rem 0;
+    resize: none;
+}
+
+::placeholder{
+    color: #999;
 }
