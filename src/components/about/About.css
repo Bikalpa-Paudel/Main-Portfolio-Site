@@ -14,13 +14,13 @@
 .about-container-1{
     height: 60vh;
     width: 50%;
-
+    
 }
 
 .about-container-2{
     height: 40vh;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     background-color:#13131A;
     clip-path: polygon(30px 0%, 100% 0%, 100% 100%, 30px 100%, 0 50%);
     color: #F0F0F5;
@@ -41,6 +41,16 @@
     background-color: #F0F0F5;
     height: 200px;
     width: 200px;
-    
     border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.my-photo{
+    z-index: 10;
+    height: 300px;
+
 }
