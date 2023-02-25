@@ -11,8 +11,8 @@ export default function About(){
                 <div className="about-container-1">
 
                     <div className="about-text">About Me</div>
+                    <div className="profile"><img src={My} alt="my pic" className="my-photo" /></div>
                     <div className="about-container-2">
-                        <div className="profile"><img src={My} alt="my pic" className="my-photo" /></div>
                         <div className="about-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde harum tempora corrupti Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsa, blanditiis quisquam delectus magni amet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident libero eius eum.
                         </div>
                     </div>
