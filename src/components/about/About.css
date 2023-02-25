@@ -18,8 +18,9 @@
 }
 
 .about-container-2{
-    height: 45vh;
+    height: 30vh;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color:#13131A;
     clip-path: polygon(30px 0%, 100% 0%, 100% 100%, 30px 100%, 0 50%);
@@ -39,9 +40,9 @@
 
 .profile{
     background-color: #F0F0F5;
-    max-height: 200px;
-    max-width: 200px;
-    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -50,5 +51,31 @@
 }
 
 .my-photo{
-    max-width: 200px;
+    max-width: 150px;
+}
+
+.about-info{
+    max-width: 70%;
+}
+
+.about-work{
+    display: flex;
+    padding-left: 2rem;
+    width: 70%;
+    height: 30vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work-icon1{
+    font-size: 5rem;
+}
+.about-work1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.work-text{
+    font-weight: 700;
 }
