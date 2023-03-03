@@ -17,6 +17,10 @@ export default function Form(){
             
         }
 
+        function submit(){
+            console.log(formData)
+        }
+
 
     return(
         <div className="form-container">
@@ -42,7 +46,7 @@ export default function Form(){
                     onChange={handleOnChange}
                 />
                 <div className="msg-btn">
-                    <input type="submit" className="input send-btn" value="Send Message"/>
+                    <input onClick={submit} type="button" className="input send-btn" value="Send Message"/>
                 </div>
             </form>
         </div>
