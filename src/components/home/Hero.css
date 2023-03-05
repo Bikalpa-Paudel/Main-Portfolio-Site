@@ -49,16 +49,4 @@
     border: 2px solid #222222;
 }
 
-.explore{
-    margin-top: 3rem;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-.arrow{
-    font-size: 20vh;
-}
