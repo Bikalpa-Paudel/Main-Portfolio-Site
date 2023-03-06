@@ -4,10 +4,17 @@ import Skill from './Skill'
 import {useState} from 'react'
 
 export default function Experience(){
-    const [show, setShow] = useState(true)
+    const [show, setShow] = useState(true);
+   const btnStyle= {
+        'backgroundColor' : '#222222',
+        'color' : '#FFFFFF'
+    }
+   const btnStyle1= {
+        'backgroundColor' : '#FFFFFF',
+        'color' : '#222222'
+    }
     function setTrue(){
         setShow(true)
-        console.log(true)
     }
 
     function setFalse(){
@@ -18,10 +25,10 @@ export default function Experience(){
         <section id="experience">
             <div className='exp-text'>The Experience I Have</div>
             <div className="two-btn">
-                <div onClick={setTrue} className="one-btn skill-btn">Skills</div>
-                <div onClick={setFalse} className="one-btn student-btn">Educations</div>
+                <div onClick={setTrue} className="one-btn skill-btn" style={show ? {...btnStyle} :{...btnStyle1} }>Skills</div>
+                <div onClick={setFalse} className="one-btn student-btn" style={show ? {...btnStyle1} : {...btnStyle}}>Educations</div>
             </div>
-            {show  ? <Skill /> : <Education /> }
+            {show  ? <Skill/> : <Education /> }
         </section>
     )
 }
