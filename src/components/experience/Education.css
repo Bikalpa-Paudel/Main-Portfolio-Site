@@ -1,0 +1,53 @@
+.skill-line{
+    background-color: #222222;
+    width: 2px;
+    height: 70vh;
+    position: absolute;
+    top: 65%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.point{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #222222;
+    position: relative;
+    
+}
+
+.skill-right{
+    position: relative;
+    left: 40px;
+    width: 250px;
+    font-size: 1.5rem;
+}
+
+.skill-left{
+    position: relative;
+    left: -110px;
+    width: 100px;
+    font-size: 1.5rem;
+    
+
+}
+
+.edu-text-r{
+    position: relative;
+    left: 40px;
+    width: 400px;
+    font-size: 1rem;
+}
+.edu-text-l{
+    position: relative;
+    left: -400px;
+    width: 400px;
+
+    font-size: 1rem;
+}
