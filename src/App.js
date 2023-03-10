@@ -16,4 +16,4 @@ import Experience from "./components/experience/Experience"
        <Contact />
      </div>
    )
- }
+  }
