@@ -25,14 +25,28 @@
 .skill-right{
     position: relative;
     left: 40px;
-    width: 250px;
+    width: 400px;
     font-size: 1.5rem;
 }
 
 .skill-left{
     position: relative;
-    left: -110px;
-    width: 100px;
+    left: -260px;
+    width: 400px;
     font-size: 1.5rem;
     
+}
+.edu-text-r{
+    position: relative;
+    left: 40px;
+    width: 400px;
+    font-size: 1rem;
+    text-align: justify;
+}
+.edu-text-l{
+    position: relative;
+    left: -400px;
+    width: 400px;
+    text-align: justify;
+    font-size: 1rem;
 }

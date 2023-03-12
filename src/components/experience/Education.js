@@ -9,7 +9,7 @@ export default function Education() {
                     <p className="edu-text-r">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dicta tenetur maxime nam quasi similique rerum optio ut voluptatem provident!</p>
                 </div>
                 <div className="point">
-                    <div className="skill-left">College</div>
+                    <div className="skill-left-clz">College</div>
                     <p className="edu-text-l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dicta tenetur maxime nam quasi similique rerum optio ut voluptatem provident!</p>
                 </div>
                 <div className="point">
