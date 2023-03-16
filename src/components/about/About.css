@@ -1,6 +1,22 @@
 #about{
     height: 100vh;
     width: 100%;
-    padding-top: 15vh;
+    padding-top: 12vh;
     font-family: 'Roboto', sans-serif;
+    background-color: #F1F2F4;
+}
+
+.about-container{
+    height: 87vh;
+}
+
+.about-text{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.about-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
