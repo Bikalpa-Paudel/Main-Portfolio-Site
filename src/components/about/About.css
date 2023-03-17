@@ -26,13 +26,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30vh;
+    height: 25vh;
     
 }
 .svg-container-2{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 900px;
-    height: 200px;
+    height: 300px;
+
+}
+
+.about-para{
+    text-align: justify;
+    margin-left: 2rem;
 }

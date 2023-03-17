@@ -2,9 +2,9 @@ export default function Svg1() {
     return (
         <>
 
-            <svg width="600" height="600" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="700" height="700" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="SVGRepo_iconCarrier">
-                    <path id="Vector" d="M100 200C155.228 200 200 155.228 200 100C200 44.7715 155.228 0 100 0C44.7715 0 0 44.7715 0 100C0 155.228 44.7715 200 100 200Z" fill="#F5F5F5" />
+                    <path id="Vector" d="M100 200C155.228 200 200 155.228 200 100C200 44.7715 155.228 0 100 0C44.7715 0 0 44.7715 0 100C0 155.228 44.7715 200 100 200Z" fill="#939393" />
                     <g id="Group">
                         <path id="Vector_2" d="M100.007 170.306L100 170.313H100.002L100.007 170.306Z" fill="#E6CBC3" />
                         <path id="Vector_3" d="M100.759 168.898C100.333 169.075 99.9156 169.239 99.5031 169.389L100 170.312L100.759 168.898Z" fill="#E6CBC3" />
