@@ -29,3 +29,10 @@
     font-size: 1rem;
     line-height: 2rem;
 }
+
+@media  screen and (max-width: 800px) {
+    .about-card{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+}

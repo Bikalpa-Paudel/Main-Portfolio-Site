@@ -1,5 +1,4 @@
 #about{
-    height: 100vh;
     width: 100%;
     padding-top: 12vh;
     font-family: 'Roboto', sans-serif;
@@ -41,4 +40,41 @@
 .about-para{
     text-align: justify;
     margin-left: 2rem;
+}
+
+/* mobile */
+@media  screen and (max-width: 800px) {
+    #about{
+        padding-top: 2rem;
+        
+    }
+    .about-container{
+        height: auto;
+    }
+
+    
+    .svg-container{
+
+        height: 500px;
+
+        
+    }
+    .svg-container-2{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 300px;
+        height: 100%;
+    
+    }
+    
+    .about-para{
+
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .about-card-container{
+        height: auto;
+        flex-wrap: wrap;
+
+    }
 }
