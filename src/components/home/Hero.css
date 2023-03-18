@@ -59,48 +59,22 @@
 }
 
 
+/* Mobile */
 @media  screen and (max-width: 800px) {
+    .hero{
+        top: 20%;
+    }
         .greet{
-            margin-bottom: 5rem;
-            font-size: 2rem;
-        }
-        
-        .thin{
-            font-weight: 100;
+            font-size: 1rem;
+            margin-bottom: 3rem;
         }
         
         .intro{
-            font-weight: 700;
-            font-size: 3rem;
+            font-size: 2rem;
         }
-        
-        .intro3{
-            font-weight: 400;
-            margin-top: 2rem;
-            font-size: .9rem;
-        }
-        
-        .btns{
-            margin-top: 3rem;
-            display: flex;
-        }
+
         
         .btn{
-            padding: 1rem;
-            width: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            padding: .7rem;
         }
-        
-        .download-btn{
-            background-color: #222222;
-            color: #FFFFFF;
-            margin-right: .8rem;
-            
-        }
-        
-        .contact-btn{
-            border: 2px solid #222222;
-        }
-}
+    }
