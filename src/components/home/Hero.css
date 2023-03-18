@@ -6,6 +6,14 @@
     left: 17%;
 }
 
+@media  screen and (max-width: 1500px) {
+    .hero{
+        max-width: 1000px;
+        right: 17%;
+    }
+}
+
+
 .greet{
     margin-bottom: 5rem;
     font-size: 3rem;
@@ -51,3 +59,48 @@
 }
 
 
+@media  screen and (max-width: 800px) {
+        .greet{
+            margin-bottom: 5rem;
+            font-size: 2rem;
+        }
+        
+        .thin{
+            font-weight: 100;
+        }
+        
+        .intro{
+            font-weight: 700;
+            font-size: 3rem;
+        }
+        
+        .intro3{
+            font-weight: 400;
+            margin-top: 2rem;
+            font-size: .9rem;
+        }
+        
+        .btns{
+            margin-top: 3rem;
+            display: flex;
+        }
+        
+        .btn{
+            padding: 1rem;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .download-btn{
+            background-color: #222222;
+            color: #FFFFFF;
+            margin-right: .8rem;
+            
+        }
+        
+        .contact-btn{
+            border: 2px solid #222222;
+        }
+}

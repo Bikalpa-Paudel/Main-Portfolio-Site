@@ -7,6 +7,12 @@
     padding: .7rem;
     margin: 0 1rem 0 1rem;
     box-shadow: 1px 1px 1px #cecece;
+    transition: all .3s ease-in;
+}
+
+.about-card:hover{
+    background-color: #222222;
+    color: #FFFFFF;
 }
 
 .about-icon{
