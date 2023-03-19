@@ -25,14 +25,14 @@
 .skill-right{
     position: relative;
     left: 40px;
-    width: 250px;
+    max-width: 250px;
     font-size: 1.5rem;
 }
 
 .skill-left-clz{
     position: relative;
     left: -110px;
-    width: 100px;
+    width: 400px;
     font-size: 1.5rem;
 }
 
