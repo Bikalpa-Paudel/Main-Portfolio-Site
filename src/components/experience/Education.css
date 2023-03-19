@@ -25,7 +25,7 @@
 .skill-right{
     position: relative;
     left: 40px;
-    max-width: 250px;
+    width: 150px;
     font-size: 1.5rem;
 }
 
@@ -49,4 +49,16 @@
     width: 400px;
     text-align: justify;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 1000px){
+    .skill-right{
+        width: 150px;
+
+    }
+    .skill-left-clz{
+
+        width: 150px;
+        
+    }
 }

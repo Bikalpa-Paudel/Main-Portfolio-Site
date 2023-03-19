@@ -40,3 +40,30 @@
     font-size: 50px;
     color: black;
 }
+
+.ham-burger-icon{
+    font-size: 50px;
+    display: none;
+}
+
+@media screen and (max-width:1000px) {
+
+    .nav{
+        justify-content: space-between;
+    }
+    .nav-icons{
+        display: none;
+
+    }
+    
+
+    
+    .github-icon{
+        display: none;
+    }
+    
+    .ham-burger-icon{
+        display: inline;
+    }
+    
+}
