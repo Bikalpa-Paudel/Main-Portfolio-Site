@@ -12,7 +12,7 @@ export default function Ham(props) {
                 <li onClick={props.navFunction}><a href="#experience" className="icon experience">Experience</a></li>
                 <li onClick={props.navFunction}><a href="#project" className="icon project">Project</a></li>
                 <li onClick={props.navFunction}><a href="#contact" className="icon contact">Contact</a></li>
-                <li onClick={props.navFunction}><a href="https://github.com/Bikalpa-Paudel" target='blank_'><BsGithub className='github-icon'/></a></li>
+                <li onClick={props.navFunction}><a href="https://github.com/Bikalpa-Paudel" target='blank_'><BsGithub className='github-icon-1'/></a></li>
             </div>
         </div>
     )

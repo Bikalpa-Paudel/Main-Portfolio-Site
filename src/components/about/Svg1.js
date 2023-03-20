@@ -3,7 +3,7 @@ export default function Svg1() {
     return (
         <>
 
-            <svg id="about-svg1" width="300" height="300" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg id="about-svg1" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="SVGRepo_iconCarrier">
                     <path id="Vector" d="M100 200C155.228 200 200 155.228 200 100C200 44.7715 155.228 0 100 0C44.7715 0 0 44.7715 0 100C0 155.228 44.7715 200 100 200Z" fill="#939393" />
                     <g id="Group">
