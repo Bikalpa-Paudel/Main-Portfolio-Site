@@ -1,6 +1,6 @@
 #about{
     width: 100%;
-    padding-top: 12vh;
+    padding-top: 120px;
     font-family: 'Roboto', sans-serif;
     background-color: #F1F2F4;
 }
@@ -45,7 +45,7 @@
 /* mobile */
 @media  screen and (max-width: 800px) {
     #about{
-        padding-top: 2rem;
+        
         
     }
     .about-container{
