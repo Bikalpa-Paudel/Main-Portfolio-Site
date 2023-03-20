@@ -2,9 +2,10 @@
     position: absolute;
     top: 10vh;
     left: 0;
-    height: 200px;
+    height: 250px;
     background-color: #FFFFFF;
     width: 100%;
+    
 }
 
 .nav-icon-ham{
@@ -14,4 +15,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+.github a{
+    text-decoration: none;
+}
+
+.github-icon{
+    font-size: 50px;
+    color: black;
+}
+
+@media screen and (max-width:1000px){
+    .ham{
+         display: inline;
+    }
 }
