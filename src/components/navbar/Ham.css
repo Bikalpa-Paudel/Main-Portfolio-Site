@@ -1,0 +1,17 @@
+.ham{
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    height: 200px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.nav-icon-ham{
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
