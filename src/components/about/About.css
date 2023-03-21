@@ -6,7 +6,7 @@
 }
 
 .about-container{
-    height: 87vh;
+    padding-bottom: 3rem;
 }
 
 .about-text{
@@ -18,14 +18,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 57vh;
+    
 }
 
 .svg-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 25vh;
+    height: 300px;
     
 }
 .svg-container-2{
@@ -44,10 +44,7 @@
 
 /* mobile */
 @media  screen and (max-width: 800px) {
-    #about{
-        
-        
-    }
+    
     .about-container{
         height: auto;
     }
