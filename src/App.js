@@ -13,7 +13,7 @@ import Experience from "./components/experience/Experience"
        <About />
        <Experience />
        <Project />
-       {/* <Contact /> */}
+       <Contact />
      </div>
    )
   }
