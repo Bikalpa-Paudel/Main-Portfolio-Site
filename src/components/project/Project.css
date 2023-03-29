@@ -1,23 +1,12 @@
 #project{
-    height: 100vh;
     width:100%;
     padding-top: 15vh;
     font-family: 'Roboto', sans-serif;
 }
-
 .project-text{
-    display: inline;
-    border-bottom: 2px solid black;
-    padding: 1rem 0 .3rem 0; 
-}
-.project-info{
-    /* border: 2px solid black; */
-    height: 60vh;
-    max-width: 30%;
-    box-shadow: 15px 15px 5px black;
-}
-
-.project-para{
-    margin-top: 1.5rem;
-    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:3rem;
+    margin-bottom: 1rem;
 }
