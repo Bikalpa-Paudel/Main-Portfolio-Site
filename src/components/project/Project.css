@@ -1,6 +1,6 @@
 #project{
     width:100%;
-    padding-top: 15vh;
+    padding-top: 100px;
     font-family: 'Roboto', sans-serif;
 }
 .project-text{
@@ -10,3 +10,10 @@
     font-size:3rem;
     margin-bottom: 1rem;
 }
+.project-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 2rem 10rem;
+} 

@@ -1,0 +1,27 @@
+.project-card{
+    width: 350px;
+    height: 400px;
+    background-color: black;
+    padding: 10px;
+}
+.project-image{
+    height: 300px;
+    background-color: antiquewhite;
+}
+
+.project-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.project-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    background-color: aliceblue;
+    padding: 1rem;
+    cursor: pointer;
+}
