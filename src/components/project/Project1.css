@@ -1,8 +1,10 @@
 .project-card{
     width: 350px;
     height: 400px;
-    background-color: black;
+    background-color: #ffffff;    
     padding: 10px;
+    box-shadow: 1px 1px 5px #000000;
+
 }
 .project-image{
     object-fit: cover;
@@ -22,7 +24,17 @@
     align-items: center;
     justify-content: center;
     width: 150px;
-    background-color: aliceblue;
     padding: 1rem;
     cursor: pointer;
+}
+.live-btn{
+    background-color: #000000;
+    color: #ffffff;
+    height: 52px;
+}
+.code-btn{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid black;
+    height: 50px;
 }

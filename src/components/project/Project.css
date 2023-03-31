@@ -1,6 +1,6 @@
 #project{
     width:100%;
-    padding-top: 100px;
+    padding: 100px;
     font-family: 'Roboto', sans-serif;
 }
 .project-text{
@@ -17,3 +17,9 @@
     grid-template-columns: auto auto;
     gap: 2rem 10rem;
 } 
+
+@media screen and (max-width:800px){
+    .project-container{
+        grid-template-columns: auto 
+    } 
+}

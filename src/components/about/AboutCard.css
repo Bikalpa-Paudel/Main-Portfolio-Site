@@ -1,12 +1,12 @@
 .about-card{
     width: 300px;
     height: 350px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: #222222;
     text-align: justify;
     padding: .7rem;
     margin: 0 1rem 0 1rem;
-    box-shadow: 1px 1px 1px #cecece;
+    box-shadow: 1px 1px 5px #434242;
     transition: all .3s ease-in;
 }
 
