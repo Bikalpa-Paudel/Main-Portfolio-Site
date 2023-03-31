@@ -5,8 +5,9 @@
     padding: 10px;
 }
 .project-image{
+    object-fit: cover;
+    width: 100%;
     height: 300px;
-    background-color: antiquewhite;
 }
 
 .project-btns{
