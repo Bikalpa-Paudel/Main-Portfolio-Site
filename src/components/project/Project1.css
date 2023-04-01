@@ -4,7 +4,9 @@
     background-color: #ffffff;    
     padding: 10px;
     box-shadow: 1px 1px 5px #000000;
-
+    transition: all .3s linear;
+    transform-origin: bottom;
+    
 }
 .project-image{
     object-fit: cover;
@@ -37,4 +39,10 @@
     color: #000000;
     border: 2px solid black;
     height: 50px;
+}
+.project-card:hover{
+    transform:translate(10px, 10px);
+    box-shadow: 10px 10px 10px #222222;
+    
+
 }
