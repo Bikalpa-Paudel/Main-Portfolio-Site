@@ -1,19 +1,13 @@
 import "./About.css"
 import AboutCard from "./AboutCard"
 import {FaReact, FaGraduationCap, FaLaptop} from 'react-icons/fa';
-import Svg1 from "./Svg1";
+
 
 export default function About(){
     return(
         <section id="about">
             <div className="about-container">
                 <h1 className="about-text">Know More About Me</h1>
-                <div className="svg-container">
-                    <div className="svg-container-2">   
-                        <Svg1 />
-                        <div className="about-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aperiam.</div>
-                    </div>
-                </div>
                 <div className='about-card-container'>
                     <AboutCard 
                     title='Frontend Developer' icon={<FaReact />}
