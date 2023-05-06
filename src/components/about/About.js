@@ -11,7 +11,7 @@ export default function About(){
                 <div className="svg-container">
                     <div className="svg-container-2">   
                         <Svg1 />
-                        <div className="about-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus in voluptas dolor debitis voluptate, sunt sequi adipisci vel cumque eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic atque accusantium aut voluptatem deserunt expedita facere sapiente laborum at. Sit aut odit temporibus molestiae obcaecati, ipsum autem quaerat perferendis quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum a quisquam quos amet earum doloremque perferendis beatae porro ex nostrum?</div>
+                        <div className="about-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aperiam.</div>
                     </div>
                 </div>
                 <div className='about-card-container'>
